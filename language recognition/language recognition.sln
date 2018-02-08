@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "language recognition", "language recognition\language recognition.csproj", "{DEBC061B-CE3B-47ED-B2D2-5C62F5AEDC2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEBC061B-CE3B-47ED-B2D2-5C62F5AEDC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEBC061B-CE3B-47ED-B2D2-5C62F5AEDC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEBC061B-CE3B-47ED-B2D2-5C62F5AEDC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEBC061B-CE3B-47ED-B2D2-5C62F5AEDC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
