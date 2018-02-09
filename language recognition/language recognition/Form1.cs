@@ -39,8 +39,6 @@ namespace language_recognition
             dict["sr"] = "Serbian";
             dict["de"] = "German";
             dict["pt"] = "Portuguese";
-            //dict["ja"] = "Japanese";
-            //dict["zh"] = "Chinese";
         }
     }
 }
