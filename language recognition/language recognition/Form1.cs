@@ -29,7 +29,7 @@ namespace language_recognition
         private void Form1_Load(object sender, EventArgs e)
         {
             lblJezik.Text = "";
-            lan = LanguageIdentifier.New("profil_2.gz", "Rank,sf", -1);
+            lan = LanguageIdentifier.New("../../profiles/profil_2.gz", "Rank,sf", -1);
             dict = new Dictionary<string, string>();
             dict["en"] = "English";
             dict["es"] = "Spanish";
