@@ -1,7 +1,7 @@
 ﻿using LanguageIdentification;
 using System;
-using System.Windows.Forms;
 using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace language_recognition
 {
@@ -12,7 +12,7 @@ namespace language_recognition
 
         public Form1()
         {
-            InitializeComponent();     
+            InitializeComponent();
         }
 
         private void btnMain_Click(object sender, EventArgs e)
@@ -20,7 +20,10 @@ namespace language_recognition
             String id;
             id = lan.Identify(rtbMain.Text);
 
-            lblJezik.Text = dict[id];
+            if (dict.ContainsKey(id))
+                lblJezik.Text = dict[id];
+            else
+                MessageBox.Show("Nepoznati jezik");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -36,6 +39,8 @@ namespace language_recognition
             dict["sr"] = "Serbian";
             dict["de"] = "German";
             dict["pt"] = "Portuguese";
+            //dict["ja"] = "Japanese";
+            //dict["zh"] = "Chinese";
         }
     }
 }
